@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sinusoidal</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 05: Dibujar Ondas Sinusoidales Configurables en un Canvas</h1>
+        <div>
+            <table style="width:100%">
+                <tr>
+                    <td style="width:10%">Color Onda Seno</td>
+                    <td style="width:10%">Color Onda Coseno</td>
+                    <td style="width:40%">Amplitud (Altura/Radio)</td>
+                    <td style="width:40%">Frecuencia (Periodo/Cantidad)</td>
+                </tr>
+                <tr>
+                    <td><input id="txtColorSeno" type="color" value="#FFFFFF"/></td>
+                    <td><input id="txtColorCoseno" type="color" value="#FFFF00"/></td>
+                    <td><input id="txtAmplitud" type="range" min="10" max="300" step="10" value="150" style="width:500px"/></td>
+                    <td><input id="txtFrecuencia" type="range" min="0.01" max="1.0" step="0.01" value="0.03" style="width:100px"/></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <canvas id="canvas" width="1400" height="600"></canvas>
+        </div>        
+    </div>
+    <script src="~/Scripts/Sinusoidal.js"></script>
+</body>
+</html>

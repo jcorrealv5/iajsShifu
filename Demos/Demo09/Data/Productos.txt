@@ -1,0 +1,9 @@
+﻿Categoria|Total Stock
+Beverages|2337
+Condiments|1449
+Confections|1288
+Dairy Products|1014
+Grains Cereals|971
+Meat Poultry|439
+Produce|523
+Seafood|905

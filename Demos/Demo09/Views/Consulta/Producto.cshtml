@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Producto</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 09: Grafico Animado Secuencial de Stock de Productos</h1>
+        <div>
+            <div id="divProducto" style="width:20%;float:left"></div>
+            <div style="float:left">
+                <input id="btnDescargar" type="button" value="Descargar"/>
+                <canvas id="canvas" width="1000" height="600"></canvas>
+            </div>
+        </div>
+    </div>
+    <input id="hdfRaiz" type="hidden" value='@Url.Content("~")'/>
+    <script src="~/Scripts/Producto.js"></script>
+</body>
+</html>
