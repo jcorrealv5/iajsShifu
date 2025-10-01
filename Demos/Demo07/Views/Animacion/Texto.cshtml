@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Texto</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 07: Animacion de Texto Configurable</h1>
+        <table style="width:80%">
+            <tr>
+                <td style="width:20%">Texto a Animar</td>
+                <td style="width:15%">Tamanio</td>
+                <td style="width:15%">Color</td>
+                <td style="width:40%">Avance (Velocidad)</td>
+                <td style="width:10%"></td>
+            </tr>
+            <tr>
+                <td><input id="txtTexto" type="text" width="200" value="IAJS"></td>
+                <td><input id="txtSize" type="number" width="80" min="30" max="300" value="50"></td>
+                <td><input id="dlgColor" type="color" value="#FFFFFF"></td>
+                <td><input id="rngAvance" type="range" min="1" max="50" value="1" style="width:400px"></td>
+                <td><input id="btnAnimar" type="button" value="Animar"></td>
+            </tr>
+        </table>
+        <canvas id="canvas" width="1400" height="600"></canvas>
+    </div>
+    <script src="~/Scripts/Texto.js"></script>
+</body>
+</html>
