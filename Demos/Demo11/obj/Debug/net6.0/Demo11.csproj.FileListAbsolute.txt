@@ -1,0 +1,8 @@
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.csproj.AssemblyReference.cache
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.AssemblyInfoInputs.cache
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.AssemblyInfo.cs
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.csproj.CoreCompileInputs.cache
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.MvcApplicationPartsAssemblyInfo.cache
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.RazorAssemblyInfo.cache
+/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/obj/Debug/net6.0/Demo11.RazorAssemblyInfo.cs

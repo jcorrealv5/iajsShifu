@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JTntksFFwqM/DKsd7OX1VdkGrTEgJpoUofPx8mIuIkZtIoxSU/6ZuPrJg2YCsx6X2ejNScO/QnIduCShZiEiNg==",
+  "success": true,
+  "projectFilePath": "/Users/jhon.correal/Documents/Repositorios/Python/IAJS/iajsShifu/Demos/Demo11/Demo11.csproj",
+  "expectedPackageFiles": [
+    "/Users/jhon.correal/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/jhon.correal/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/jhon.correal/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
