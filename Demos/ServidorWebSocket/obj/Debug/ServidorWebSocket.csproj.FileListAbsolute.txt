@@ -1,0 +1,16 @@
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\bin\Debug\ServidorWebSocket.exe.config
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\bin\Debug\ServidorWebSocket.exe
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\bin\Debug\ServidorWebSocket.pdb
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\bin\Debug\Fleck.dll
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\obj\Debug\ServidorWebSocket.csproj.CoreCompileInputs.cache
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\obj\Debug\ServidorWebSocket.csproj.CopyComplete
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\obj\Debug\ServidorWebSocket.exe
+C:\Data\NET\Cursos\PrincipiantesCS\DemosWeb\ServidorWebSocket\obj\Debug\ServidorWebSocket.pdb
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\bin\Debug\ServidorWebSocket.exe.config
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\bin\Debug\ServidorWebSocket.exe
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\bin\Debug\ServidorWebSocket.pdb
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\obj\Debug\ServidorWebSocket.csproj.CoreCompileInputs.cache
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\obj\Debug\ServidorWebSocket.csproj.CopyComplete
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\obj\Debug\ServidorWebSocket.exe
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\obj\Debug\ServidorWebSocket.pdb
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWebSocket\obj\Debug\ServidorWebSocket.csprojAssemblyReference.cache

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Captura</title>
+    <link href="~/Styles/IAJS.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1>Demo 17: Captura de Video y Envio al Servidor con Multiples Usuarios</h1>
+        <div>
+            Frames Enviados al Servidor: <span id="spnFrames"></span>
+            <input id="btnActivarCamara" type="button" value="Activar Camara" />
+        </div>
+        <div>
+            <div><video id="video" width="600" height="500" style="float:left"></video></div>
+            <div><canvas id="canvas" width="600" height="500" style="display:none"></canvas></div>
+        </div>
+    </div>
+    <input id="hdfRaiz" type="hidden" value='@Url.Content("~")'/>
+    <script src="~/Scripts/Captura.js"></script>
+</body>
+</html>

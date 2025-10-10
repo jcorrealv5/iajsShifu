@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Reproduccion</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 16: Reproduccion de Video desde el Servidor con XHR</h1>
+        <div>
+            Frames Recibidos del Servidor: <span id="spnFrames"></span>
+            <input id="btnIniciarReproduccion" type="button" value="Iniciar Reproduccion" />
+        </div>
+        <div>
+            <canvas id="canvas" width="600" height="500"></canvas>
+        </div>
+        <input id="hdfRaiz" type="hidden" value='@Url.Content("~")' />
+    </div>
+    <script src="~/Scripts/Reproduccion.js"></script>
+</body>
+</html>
