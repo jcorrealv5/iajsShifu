@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Camara</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 14: Control de la Camara Web usando controles HTML5 Video y Canvas</h1>
+        <div>
+            <input id="btnActivarCamara" type="button" value="Activar Camara" />
+            <input id="btnTomarFoto" type="button" value="Tomar Foto" style="display:none" />
+            <input id="btnDescargarFoto" type="button" value="Descargar Foto" style="display:none"/>
+        </div>
+        <div>
+            <div><video id="video" width="600" height="500" style="float:left"></video></div>
+            <div><canvas id="canvas" width="600" height="500" style="float:left"></canvas></div>
+        </div>
+    </div>
+    <script src="~/Scripts/Camara.js"></script>
+</body>
+</html>

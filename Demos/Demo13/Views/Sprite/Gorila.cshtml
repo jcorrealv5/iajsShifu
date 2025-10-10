@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Gorila</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 13: Animacion de Imagenes con Sprite de Matriz</h1>
+        <div>
+            <input id="btnDescargar" type="button" value="Descargar" />
+            <input id="btnAnimar" type="button" value="Animar" style="display:none" />
+        </div>
+        <div><canvas id="canvas" width="1400" height="600"></canvas></div>
+    </div>
+    <input id="hdfAnchoSprite" type="hidden" value="@ViewBag.Ancho" />
+    <input id="hdfAltoSprite" type="hidden" value="@ViewBag.Alto" />
+    <input id="hdfFilasSprite" type="hidden" value="@ViewBag.Filas" />
+    <input id="hdfColsSprite" type="hidden" value="@ViewBag.Cols" />
+    <script src="~/Scripts/Gorila.js"></script>
+</body>
+</html>
