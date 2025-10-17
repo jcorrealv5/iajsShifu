@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CrearUsuario</title>
+    <link href="~/Styles/IAJS.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div class="Titulo">Demo 17: Sistema de Video con Multiples Usuarios y Fuera de Linea</div>
+        <div class="Marco">
+            <div class="Subtitulo">Crear Usuarios</div>
+            <div>Ingresa el Usuario:</div>
+            <div><input id="txtUsuario" type="text" style="width:200px" maxlength="20"/></div>
+            <div>Ingresa la Clave:</div>
+            <div><input id="txtClave" type="password" style="width:100px" maxlength="10"/></div>            
+            <div>Ingresa Nuevamente la Clave:</div>
+            <div>
+                <input id="txtReingresoClave" type="password" style="width:100px" maxlength="10"/>
+            </div>
+            <div>
+                <input id="btnAceptar" type="button" value="Aceptar" class="Boton" />
+            </div>
+            <div><span id="spnValida"></span></div>
+        </div>
+    </div>
+    <input id="hdfRaiz" type="hidden" value='@Url.Content("~")' />
+    <script src="~/Scripts/Rutinas.js"></script>
+    <script src="~/Scripts/CrearUsuario.js"></script>
+</body>
+</html>

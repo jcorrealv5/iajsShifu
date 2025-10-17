@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Reproduccion</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 18: Reproduccion de Video en Tiempo Real con Web Sockets</h1>
+        <div>
+            Estado del Web Socket: <span id="spnEstado"></span> -
+            Frames Recibidos del Servidor: <span id="spnFrames"></span>
+        </div>
+        <div>
+            <canvas id="canvas" width="600" height="500"></canvas>
+        </div>
+        <input id="hdfIpWebSocket" type="hidden" value='@ViewBag.IpWebSocket' />
+    </div>
+    <script src="~/Scripts/Reproduccion.js"></script>
+</body>
+</html>

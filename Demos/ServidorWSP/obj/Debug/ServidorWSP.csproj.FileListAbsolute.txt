@@ -1,0 +1,9 @@
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\bin\Debug\ServidorWSP.exe.config
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\bin\Debug\ServidorWSP.exe
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\bin\Debug\ServidorWSP.pdb
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\bin\Debug\Fleck.dll
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\obj\Debug\ServidorWSP.csprojAssemblyReference.cache
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\obj\Debug\ServidorWSP.csproj.CoreCompileInputs.cache
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\obj\Debug\ServidorWSP.csproj.CopyComplete
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\obj\Debug\ServidorWSP.exe
+C:\Data\NET\Cursos\2025_09_IAJS\Demos\ServidorWSP\obj\Debug\ServidorWSP.pdb

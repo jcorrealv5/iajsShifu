@@ -1,0 +1,9 @@
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\bin\Debug\ServidorWebSocketSeguro.exe.config
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\bin\Debug\ServidorWebSocketSeguro.exe
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\bin\Debug\ServidorWebSocketSeguro.pdb
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\bin\Debug\Fleck.dll
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\obj\Debug\ServidorWebSocketSeguro.csproj.AssemblyReference.cache
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\obj\Debug\ServidorWebSocketSeguro.csproj.CoreCompileInputs.cache
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\obj\Debug\ServidorWebSocketSeguro.csproj.CopyComplete
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\obj\Debug\ServidorWebSocketSeguro.exe
+C:\Users\GoldTech\Desktop\ServidorWebSocketSeguro\ServidorWebSocketSeguro\obj\Debug\ServidorWebSocketSeguro.pdb

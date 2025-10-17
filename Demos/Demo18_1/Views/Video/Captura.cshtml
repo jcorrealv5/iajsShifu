@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Captura</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 18: Captura de Video y Envio al Servidor con Web Sockets</h1>
+        <div>
+            Estado del Web Socket: <span id="spnEstado"></span> - 
+            Frames Enviados al Servidor: <span id="spnFrames"></span>
+            Selecciona Tipo de Formato: <select id="cboTipoFormato"></select>
+            <input id="btnActivarCamara" type="button" value="Activar Camara" />
+        </div>
+        <div>
+            <div><video id="video" width="600" height="500" style="float:left"></video></div>
+            <div><canvas id="canvas" width="600" height="500" style="display:none"></canvas></div>
+        </div>
+    </div>
+    <input id="hdfIpWebSocket" type="hidden" value='@ViewBag.IpWebSocket'/>
+    <script src="~/Scripts/Captura.js"></script>
+</body>
+</html>
