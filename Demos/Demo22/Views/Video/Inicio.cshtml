@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Inicio</title>
+    <link href="~/Styles/IAJS.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1>Demo 22: Video en Tiempo Real MultiUsuario</h1>
+        <div>
+            Estado del Web Socket: <span id="spnEstado"></span>
+            <div><video id="video" width="600" height="500" style="float:left;display:none"></video></div>
+            <div><canvas id="canvas" width="600" height="500" style="display:none"></canvas></div>
+        </div>
+        <div>
+            <div id="divPanel" width="1200" height="600"></div>
+        </div>
+    </div>
+    <input id="hdfIpWebSocket" type="hidden" value='@ViewBag.IpWebSocket' />
+    <input id="hdfUsuario" type="hidden" value='@ViewBag.Usuario' />
+    <script src="~/Scripts/Inicio.js"></script>
+</body>
+</html>
