@@ -28,4 +28,8 @@ urlpatterns = [
     path('appDemo07/', include('appDemo07.urls')),
     path('appDemo08/', include('appDemo08.urls')),
     path('appDemo09/', include('appDemo09.urls')),
+    path('appDemo10/', include('appDemo10.urls')),
+    path('appDemo11/', include('appDemo11.urls')),
+    path('appDemo12/', include('appDemo12.urls')),
+    path('appDemo13/', include('appDemo13.urls')),
 ]
