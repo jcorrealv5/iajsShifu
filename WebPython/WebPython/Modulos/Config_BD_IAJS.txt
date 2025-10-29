@@ -1,0 +1,5 @@
+driver=ODBC Driver 17 for SQL Server
+servidor=LAPTOP-QSG034LN\SQLSERVER
+usuario=UsuarioBDIAJS
+clave=123456
+basedatos=BD_IAJS

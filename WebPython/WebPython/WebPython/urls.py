@@ -2,7 +2,7 @@
 URL configuration for WebPython project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.2/topics/http/urls/
+    https://docs.djangoproject.com/en/4.2/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -14,9 +14,8 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import include, path
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -24,4 +23,7 @@ urlpatterns = [
     path('appDemo02/', include('appDemo02.urls')),
     path('appDemo03/', include('appDemo03.urls')),
     path('appDemo04/', include('appDemo04.urls')),
+    path('appDemo05/', include('appDemo05.urls')),
+    path('appDemo06/', include('appDemo06.urls')),
+    path('appDemo07/', include('appDemo07.urls')),
 ]

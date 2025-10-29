@@ -1,0 +1,48 @@
+Fecha y Hora: 2025-10-24 21:37:56.664855
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'UsuarioBDIAJS'.  Reason: The password of the account must be changed. (18488) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'UsuarioBDIAJS'.  Reason: The password of the account must be changed. (18488)")
+__________________________________________________
+Fecha y Hora: 2025-10-24 21:41:14.985097
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Duenas' to data type int. (245) (SQLParamData)")
+__________________________________________________
+Fecha y Hora: 2025-10-24 23:48:37.357389
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: can only concatenate str (not "NoneType") to str
+__________________________________________________
+Fecha y Hora: 2025-10-24 23:48:37.962286
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: can only concatenate str (not "NoneType") to str
+__________________________________________________
+Fecha y Hora: 2025-10-24 23:49:18.633273
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: can only concatenate str (not "NoneType") to str
+__________________________________________________
+Fecha y Hora: 2025-10-25 00:10:39.604086
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: can only concatenate str (not "int") to str
+__________________________________________________
+Fecha y Hora: 2025-10-25 00:10:52.256845
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: can only concatenate str (not "int") to str
+__________________________________________________
+Fecha y Hora: 2025-10-25 00:11:14.210890
+Modulo: modAccesoDatos
+Clase: clienteSQL
+Metodo: EjecutarComandoCadena
+Error: can only concatenate str (not "int") to str
+__________________________________________________
