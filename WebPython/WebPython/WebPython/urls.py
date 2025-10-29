@@ -26,4 +26,6 @@ urlpatterns = [
     path('appDemo05/', include('appDemo05.urls')),
     path('appDemo06/', include('appDemo06.urls')),
     path('appDemo07/', include('appDemo07.urls')),
+    path('appDemo08/', include('appDemo08.urls')),
+    path('appDemo09/', include('appDemo09.urls')),
 ]
