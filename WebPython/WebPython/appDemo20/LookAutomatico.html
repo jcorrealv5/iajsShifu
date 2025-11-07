@@ -1,0 +1,22 @@
+<html>
+	<body>
+		{% load static %}
+		<link href="{% static 'static/styles/IAJS.css'%}" rel="stylesheet" />
+		<div>
+			<h1>Demo 20:API FaceMesh para Cambiar Look Automaticamente</h1>
+			<div>
+				<input id="btnActivarCamara" type="button" value="Activar Camara" />
+				<input id="btnTomarFoto" type="button" value="Tomar Foto" />
+			</div>
+			<div>
+				<div><video id="video" width="600" height="500" style="float:left"></video></div>
+				<div><canvas id="canvas" width="600" height="500" style="float:left"></canvas></div>
+				<div><canvas id="canvasCara" width="200" height="200" style="float:left;display:none"></canvas></div>
+				<div id="divFotos" style="width:250;height:500;overflow-y:auto"></div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+		<script src='https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js' crossorigin='anonymous'></script>
+		<script src="{% static 'appDemo20/LookAutomatico.js'%}"></script>
+	</body>
+</html>
