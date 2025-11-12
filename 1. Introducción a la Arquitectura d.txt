@@ -1,0 +1,161 @@
+1. Introducción a la Arquitectura de Software
+
+La arquitectura de software es el conjunto de decisiones estructurales que definen la organización de un sistema.
+
+Su objetivo principal es garantizar que el software sea mantenible, escalable, seguro y alineado con los objetivos del negocio.
+
+Un arquitecto de software actúa como puente entre las necesidades técnicas y los requerimientos estratégicos.
+
+La arquitectura define los módulos, las relaciones entre ellos y los principios que guían su evolución.
+
+No se trata solo de diagramas, sino de decisiones que afectan directamente el rendimiento, la seguridad y la experiencia del usuario.
+
+En entornos empresariales, la arquitectura permite la estandarización, la gobernanza y la reutilización de componentes.
+
+Los errores en arquitectura pueden derivar en sobrecostos, retrabajos y sistemas difíciles de mantener.
+
+La arquitectura moderna evoluciona constantemente con las necesidades del negocio y la tecnología.
+
+Existen múltiples estilos arquitectónicos: monolítico, en capas, orientado a servicios, microservicios, orientado a eventos, y serverless.
+
+Cada enfoque tiene ventajas, limitaciones y contextos donde es más adecuado.
+
+2. Fundamentos de la Arquitectura de Software
+
+Todo sistema debe construirse con base en principios sólidos de diseño.
+
+Entre los más importantes están la separación de responsabilidades (SoC), el principio de responsabilidad única (SRP), y la alta cohesión con bajo acoplamiento.
+
+La arquitectura debe promover el cambio controlado sin generar deuda técnica excesiva.
+
+Las decisiones deben ser documentadas mediante ADR (Architecture Decision Records).
+
+La comunicación entre componentes debe estar definida mediante contratos bien estructurados, preferiblemente APIs REST o gRPC.
+
+Las dependencias deben gestionarse con claridad para evitar acoplamiento innecesario.
+
+La mantenibilidad implica que el sistema pueda modificarse sin afectar módulos no relacionados.
+
+La escalabilidad define la capacidad de responder ante aumentos de carga sin pérdida de rendimiento.
+
+La seguridad debe incorporarse desde el diseño (security by design).
+
+El rendimiento debe analizarse continuamente mediante pruebas de carga y monitoreo.
+
+3. Principios Arquitectónicos Clave
+
+Modularidad: el sistema se divide en módulos independientes con funciones específicas.
+
+Encapsulamiento: cada módulo debe ocultar su lógica interna y exponer solo interfaces necesarias.
+
+Reutilización: los componentes deben diseñarse para ser reutilizables en distintos contextos.
+
+Escalabilidad horizontal: capacidad de agregar nodos sin afectar la lógica del sistema.
+
+Resiliencia: capacidad del sistema para recuperarse de fallos parciales.
+
+Disponibilidad: garantizar que el servicio esté operativo con mínima interrupción.
+
+Observabilidad: incluye métricas, logs y trazas distribuidas para entender el comportamiento del sistema.
+
+Automatización: los procesos de build, test y deploy deben estar integrados en pipelines CI/CD.
+
+Portabilidad: el software debe poder ejecutarse en distintos entornos con mínima configuración.
+
+Seguridad: autenticación, autorización, cifrado y control de acceso son pilares básicos.
+
+4. Estilos Arquitectónicos Modernos
+
+Arquitectura monolítica: toda la aplicación reside en un solo artefacto desplegable.
+
+Adecuada para proyectos pequeños o MVPs por su simplicidad.
+
+Se vuelve difícil de mantener cuando el sistema crece.
+
+Arquitectura en capas (n-tier): organiza el código por responsabilidades — presentación, negocio, datos.
+
+Facilita la separación de preocupaciones y el mantenimiento.
+
+Arquitectura orientada a servicios (SOA): introduce servicios independientes que se comunican mediante protocolos.
+
+Fue precursora de los microservicios modernos.
+
+Microservicios: dividen la aplicación en servicios pequeños, independientes y desplegables de forma aislada.
+
+Favorecen la escalabilidad, pero añaden complejidad operativa.
+
+Cada microservicio debe tener su propia base de datos o esquema lógico.
+
+Arquitectura orientada a eventos (EDA): los servicios se comunican mediante mensajes asincrónicos.
+
+Mejora la resiliencia y desacopla emisores y receptores.
+
+Serverless: elimina la gestión de infraestructura; ideal para workloads intermitentes.
+
+Reduce costos y tiempos de despliegue, pero limita el control de entorno.
+
+Arquitectura hexagonal: separa la lógica de negocio del mundo exterior mediante puertos y adaptadores.
+
+Clean Architecture: variante moderna que promueve independencia de frameworks y bases de datos.
+
+Event Sourcing: persiste el estado como una secuencia de eventos.
+
+CQRS: separa las operaciones de lectura y escritura para optimizar rendimiento.
+
+Domain-Driven Design (DDD): prioriza el dominio y la lógica del negocio como núcleo de la arquitectura.
+
+Estos estilos pueden combinarse en arquitecturas híbridas adaptadas al contexto empresarial.
+
+5. Componentes y Capas
+
+Las capas típicas incluyen: presentación, lógica de negocio, acceso a datos y persistencia.
+
+En sistemas modernos, se añaden capas de integración, mensajería y orquestación.
+
+Los componentes deben tener responsabilidades claramente definidas.
+
+Un componente puede ser un módulo, microservicio, función o API.
+
+La interacción entre componentes debe gestionarse mediante contratos y control de versiones.
+
+Los frontends modernos suelen consumir APIs a través de REST o GraphQL.
+
+En backends, los patrones más comunes incluyen: Repositorio, Servicio, Controlador y DTOs.
+
+Las bases de datos pueden ser relacionales (PostgreSQL, MySQL, SQL Server) o NoSQL (MongoDB, Redis, Cassandra).
+
+El uso de ORM como Hibernate o Entity Framework ayuda a abstraer la persistencia.
+
+Los componentes deben diseñarse para ser testeables de forma aislada.
+
+6. Seguridad en la Arquitectura
+
+La seguridad no debe añadirse al final, sino definirse desde el diseño.
+
+Los principios clave incluyen: autenticación, autorización, auditoría y cifrado.
+
+JWT (JSON Web Token) es un estándar común para autenticación stateless.
+
+OAuth2 y OpenID Connect se usan para autorización federada.
+
+Las APIs deben protegerse con API Gateways y rate limiting.
+
+Las comunicaciones deben cifrarse con HTTPS/TLS.
+
+Se deben aplicar políticas de CORS seguras en aplicaciones web.
+
+La gestión de secretos debe centralizarse con herramientas como Vault o AWS Secrets Manager.
+
+Las bases de datos deben cifrar datos en reposo y en tránsito.
+
+Los logs sensibles deben anonimizar información personal (PII).
+
+Las pruebas de seguridad deben incluir escaneos con SonarQube, OWASP ZAP o Acunetix.
+
+La seguridad debe integrarse al pipeline CI/CD (DevSecOps).
+
+El monitoreo de vulnerabilidades debe ser continuo.
+
+Las dependencias deben auditarse automáticamente con herramientas como Dependabot o Snyk.
+
+El principio de menor privilegio debe aplicarse en cada capa.
