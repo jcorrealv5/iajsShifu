@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TraduccionTexto</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 08: Resumir un texto de un archivo seleccionado del idioma actual</h1>
+        <h2>Selecciona un archivo de texto a resumir (Ingles o Castellano)</h2>
+        <input id="txtArchivo" type="text" style="width:500px" />
+        <input id="btnSeleccionar" type="button" value="..." />
+        <input id="fupArchivo" type="file" accept="plain/text" style="display:none" />
+        <input id="btnDescargar" type="button" value="Descargar"/>
+        <input id="btnResumir" type="button" value="Resumir" disabled="disabled" />
+        <input id="btnNuevo" type="button" value="Nuevo" />
+        <h3>Texto en: <span id="spnIdiomaActual"></span></h3>
+        <div id="divTexto" style="width:1200px;height:250px;overflow-y:auto;background-color:white"></div>
+        <h3>Texto Resumido</h3>
+        <div id="divResumen" style="width:1200px;height:250px;overflow-y:auto;background-color:white"></div>
+    </div>
+    <script src="~/Scripts/ResumenArchivo.js"></script>
+</body>
+</html>

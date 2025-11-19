@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Consulta</title>
+    <link href="~/Styles/CursoMJ.css" rel="stylesheet" />
+</head>
+<body style="background-color:lightblue">
+    <div id="divPrincipal">
+        <div>
+            <input id="btnCastellano" type="button" value="Castellano" data-idioma="" />
+            <input id="btnIngles" type="button" value="Ingles" data-idioma="en" />
+            <input id="btnFrances" type="button" value="Frances" data-idioma="fr" />
+        </div>
+        <div class="Subtitulo">Consulta de Postulantes</div>
+        <div id="divPostulante"></div>
+        <h3><a href='@Url.Content("~")Postulante/Inicio'>Regresar</a></h3>
+    </div>
+    <script src="~/Scripts/General.js"></script>
+    <script src="~/Scripts/Consulta.js"></script>
+</body>
+</html>
