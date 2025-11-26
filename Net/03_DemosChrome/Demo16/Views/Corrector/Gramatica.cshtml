@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Gramatica</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 16: API Proofreader para corregir errores de gramática</h1>
+        <table>
+            <tr>
+                <td style="width:50%">Selecciona el Archivo de Texto</td>
+                <td style="width:50%">Texto Corregido</td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="txtArchivo" type="text" style="width:500px" />
+                    <input id="btnSeleccionar" type="button" value="..." />
+                    <input id="fupTexto" type="file" accept="text/plain" style="display:none" multiple="" />
+                </td>
+                <td>
+                    <input id="btnDescargar" type="button" value="Descargar"/>
+                    <input id="btnCorregir" type="button" value="Corregir" disabled="disabled" />
+                    <input id="btnNuevo" type="button" value="Nuevo" />
+                </td>
+            </tr>
+            <tr>
+                <td><div id="divTextoOriginal" style="width:700px;height:500px;overflow-y:auto;background-color:white"></div></td>
+                <td><div id="divTextoCorregido" style="width:700px;height:500px;overflow-y:auto;background-color:white"></div></td>
+            </tr>
+        </table>
+    </div>
+    <script src="~/Scripts/Gramatica.js"></script>
+</body>
+
+</html>

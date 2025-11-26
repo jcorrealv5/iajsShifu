@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91BA9B8A-C6F5-49DA-B954-5E7BFDF5C2D7}|Demo16.csproj|c:\\users\\jhonf\\documents\\shifu\\iajsshifu\\net\\03_demoschrome\\demo16\\scripts\\gramatica.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{91BA9B8A-C6F5-49DA-B954-5E7BFDF5C2D7}|Demo16.csproj|solutionrelative:scripts\\gramatica.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gramatica.js",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo16\\Scripts\\Gramatica.js",
+              "RelativeDocumentMoniker": "Scripts\\Gramatica.js",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo16\\Scripts\\Gramatica.js",
+              "RelativeToolTip": "Scripts\\Gramatica.js",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-26T03:51:01.032Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
