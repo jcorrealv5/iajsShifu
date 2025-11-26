@@ -1,0 +1,7 @@
+CorreoServidor=smtp.office365.com
+CorreoPuerto=587
+CorreoSSL=true
+CorreoDe=
+CorreoMascara=IAJS03
+CorreoUsuario=
+CorreoClave=

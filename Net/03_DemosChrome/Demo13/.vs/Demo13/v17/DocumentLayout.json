@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{971859CE-1C88-4788-82C0-E3FFADB425E1}|Demo13.csproj|c:\\users\\jhonf\\documents\\shifu\\iajsshifu\\net\\03_demoschrome\\demo13\\scripts\\correo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{971859CE-1C88-4788-82C0-E3FFADB425E1}|Demo13.csproj|solutionrelative:scripts\\correo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971859CE-1C88-4788-82C0-E3FFADB425E1}|Demo13.csproj|c:\\users\\jhonf\\documents\\shifu\\iajsshifu\\net\\03_demoschrome\\demo13\\views\\mensaje\\correo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{971859CE-1C88-4788-82C0-E3FFADB425E1}|Demo13.csproj|solutionrelative:views\\mensaje\\correo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Correo.cshtml",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo13\\Views\\Mensaje\\Correo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mensaje\\Correo.cshtml",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo13\\Views\\Mensaje\\Correo.cshtml",
+              "RelativeToolTip": "Views\\Mensaje\\Correo.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T05:23:20.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Correo.js",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo13\\Scripts\\Correo.js",
+              "RelativeDocumentMoniker": "Scripts\\Correo.js",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo13\\Scripts\\Correo.js",
+              "RelativeToolTip": "Scripts\\Correo.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T05:23:34.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

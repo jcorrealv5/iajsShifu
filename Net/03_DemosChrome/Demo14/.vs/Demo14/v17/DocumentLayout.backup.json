@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B5A83C-3343-4ACD-8339-F82296AB531C}|Demo14.csproj|c:\\users\\jhonf\\documents\\shifu\\iajsshifu\\net\\03_demoschrome\\demo14\\scripts\\prompttexto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B2B5A83C-3343-4ACD-8339-F82296AB531C}|Demo14.csproj|solutionrelative:scripts\\prompttexto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B5A83C-3343-4ACD-8339-F82296AB531C}|Demo14.csproj|c:\\users\\jhonf\\documents\\shifu\\iajsshifu\\net\\03_demoschrome\\demo14\\views\\chat\\prompttexto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2B5A83C-3343-4ACD-8339-F82296AB531C}|Demo14.csproj|solutionrelative:views\\chat\\prompttexto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PromptTexto.js",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo14\\Scripts\\PromptTexto.js",
+              "RelativeDocumentMoniker": "Scripts\\PromptTexto.js",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo14\\Scripts\\PromptTexto.js",
+              "RelativeToolTip": "Scripts\\PromptTexto.js",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswC8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T06:05:37.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromptTexto.cshtml",
+              "DocumentMoniker": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo14\\Views\\Chat\\PromptTexto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chat\\PromptTexto.cshtml",
+              "ToolTip": "C:\\Users\\jhonf\\Documents\\Shifu\\iajsShifu\\Net\\03_DemosChrome\\Demo14\\Views\\Chat\\PromptTexto.cshtml",
+              "RelativeToolTip": "Views\\Chat\\PromptTexto.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T06:07:23.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PromptTexto</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 14: API Prompt para crear un Chatbot con entrada de Texto</h1>
+        <table>
+            <tr>
+                <td>Ingresa el Mensaje</td>
+                <td>
+                    <input id="txtMensaje" type="text" style="width:900px">
+                    <input id="btnEnviarMensaje" type="button" value="EnviarMensaje" disabled="disabled" />
+                    <input id="btnDescargarModelo" type="button" value="Descargar Modelo" />
+                    <input id="btnDescargarConversacion" type="button" value="Descargar Conversacion" />
+                </td>
+            </tr>
+        </table>
+        <div id="divRespuesta" style="width:1200px;height:500px;overflow-y:auto;background-color:white"></div>
+    </div>
+    <script src="~/Scripts/PromptTexto.js"></script>
+</body>
+</html>

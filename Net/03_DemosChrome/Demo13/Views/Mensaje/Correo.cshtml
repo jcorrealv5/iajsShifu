@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Correo</title>
+</head>
+<body style="background-color:lightblue">
+    <div>
+        <h1>Demo 13: API ReWriter para re-escribir en correo electronico y enviarlo a un grupo de personas</h1>
+        <table>
+            <tr>
+                <td>Selecciona el Tono</td>
+                <td>Selecciona el Formato</td>
+                <td>Selecciona el Tamanio</td>
+            </tr>
+            <tr>
+                <td><select id="cboTono" style="width:200px"></select></td>
+                <td><select id="cboFormato" style="width:200px"></select></td>
+                <td><select id="cboTamanio" style="width:200px"></select></td>
+            </tr>
+            <tr>
+                <td colspan="4">Contexto</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input id="txtContexto" type="text" style="width:1000px" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">Asunto</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input id="txtAsunto" type="text" style="width:1000px" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">Breve Contenido</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <textarea id="txtContenido" style="width:1000px" rows="3"></textarea>
+                </td>
+                <td>
+                    <input id="btnDescargar" type="button" value="Descargar"/>
+                    <input id="btnReEscribir" type="button" value="Re-Escribir"  />
+                    <input id="btnNuevo" type="button" value="Nuevo" />
+                    <input id="btnEnviarCorreo" type="button" value="Enviar Correo" />
+                </td>
+            </tr>
+        </table>
+        <div>
+            <div id="divMensaje" style="float: left; background-color:gray; width: 700px; height: 400px; overflow-y: auto"></div>
+            <div id="divDestinatarios" style="float: left; background-color:white; width: 700px; height: 400px; overflow-y: auto"></div>
+        </div>
+    </div>
+    <input id="hdfRaiz" type="hidden" value='@Url.Content("~")' />
+    <script src="~/Scripts/Correo.js"></script>
+</body>
+</html>
